@@ -1,0 +1,199 @@
+/* .product{
+    height: 57vh;
+    width:calc(70vw/3);
+    margin: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5vh;
+    background-color: white;
+    color: black;
+    border: solid black 2px;
+    border-radius: 16px;
+} */
+
+/* .product img{
+    background-color: #000000;
+    height: 150px;
+    width: 200px;
+    border-radius: 8px;
+  } */
+
+.navbar {
+    font-family: 'lemon_milklight';
+    font-weight: 900;
+    background-color: black;
+    height: 13vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    vertical-align: middle;
+    position: relative;
+}
+
+.logo{
+    height: 9vh;
+    width: 10vw;
+    display: flex;
+    justify-content: flex-start;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.link{
+    color:white;
+    font-size: 3vh;
+    text-decoration: none;
+}
+.link:hover{
+    transform: scale(1.05);
+    color:rgb(251, 211, 31);
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  width: 50vw;
+  color: white;
+  font-weight: 800;
+  
+}
+
+.menu li{
+  margin-right: 2vw;
+}
+
+#active{
+    border-bottom: solid rgb(247, 54, 54);
+}
+
+.menu button{
+    font-family: 'lemon_milkmedium';
+    position: relative;
+    background-color: white;
+    width: 100px;
+    height: 35px;
+    color: black;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 100ms;
+}
+
+.loginbutton:hover{
+border: solid rgb(251, 211, 31);
+color: white;
+background-color: black;
+}
+
+
+.footer{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 0 auto
+}
+
+.inner-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.footerlogo{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 8vh;
+}
+
+.topimg{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.footer ul{
+    display: flex;
+    align-items: flex-start;
+    /* margin-left: -30px; */
+}
+.footer li{
+    font-family: 'Lemon_milkregular';
+    display: flex;
+    align-items:center;
+    width: calc(80%/4);
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 2.3vh;
+    cursor: pointer;
+
+}
+
+.infoli:hover{
+    transform: scale(1.02);
+    color:rgb(251, 211, 31);
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer hr{
+    width: 90vw;
+}
+
+.followus{
+    font-family: 'Lemon_milkregular';
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: -30px;
+}
+
+.socialmedia ul{
+    margin-left: 39.8vw;
+    margin-top: 20px;
+}
+
+.socialmedia li{
+    display:flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 20px;
+    align-items: center;
+    animation: icon 250ms;
+    cursor: pointer;
+}
+
+.socli:hover{
+   transform: scale(1.05);
+}
+
+.socialmedia img{
+    height: 45px;
+    width: 45px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.companyname{
+    font-family: 'Lemon_milkregular';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 65px;
+    font-size: 2.5vh;
+    margin-left: -30px;
+}
