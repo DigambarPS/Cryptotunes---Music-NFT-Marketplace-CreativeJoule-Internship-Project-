@@ -1,0 +1,405 @@
+body {
+  background-image: repeating-linear-gradient(
+    to bottom right,
+    aliceblue,
+    white
+  );
+  overflow-x: hidden;
+}
+
+/*------------HOME PAGE------------------------------*/
+/*--------- GRID1 --------------------------------*/
+.grid1 {
+  margin-top: 5vh;
+  display: flex;
+  color: white;
+  text-align: left;
+  height: 700px;
+  width: 95vw;
+  margin-left: 30px;
+  background-color: #000000;
+  border-radius: 16px;
+  animation: grid1 350ms;
+}
+
+/*HIDDEN CODE
+   @keyframes flyin {
+    from {transform:scale(10%);} 
+    to   {transform:scale(initial);}
+  }
+
+  @keyframes img {
+    from {border-radius:100px;} 
+    to   {border-radius:inherit;}
+  } */
+
+.content1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  /* animation: flyin 500ms; */
+}
+
+.content1 img {
+  border-radius: 8px;
+  width: 45vw;
+  animation: img 800ms;
+}
+
+.bgimg {
+  position: absolute;
+  height: 700px;
+  margin-top: 0px;
+  margin-left: 59vw;
+}
+
+.grid1 h1 {
+  line-height: 10vh;
+  font-family: "lemon_milkbold";
+  position: relative;
+  margin-left: 8vw;
+  margin-right: 2vh;
+  font-size: 8vh;
+  width: 40vw;
+  color: white;
+  margin-top: 1vh;
+}
+
+.grid1 h2 {
+  font-family: "lemon_milklight";
+  position: relative;
+  margin-left: 1.5vw;
+  width: 45vw;
+  padding-top: 1vw;
+  color: white;
+  text-align: center;
+}
+
+.grid1 button {
+  font-family: "Lemon_milkmedium";
+  position: relative;
+  background-color: white;
+  font-size: 25px;
+  width: 200px;
+  height: 50px;
+  color: black;
+  border-radius: 12px;
+  margin-left: 18vw;
+  margin-top: 4vh;
+  align-content: center;
+  cursor: pointer;
+  transition-duration: 250ms;
+}
+
+.grid1button:hover {
+  border: solid rgb(251, 211, 31);
+  color: white;
+  background-color: black;
+}
+
+/* .button:hover{
+    border-color: yellow;
+    transform:translateY(4px);
+  } */
+
+/* hover{
+      background-color: black;
+      border-color: yellow;
+      scale:(1.5);
+  } */
+/*----------------------------------------------*/
+
+/*--------- GRID2 --------------------------------*/
+.grid2 {
+  background-color: rgb(251, 211, 31);
+  color: black;
+  height: 600px;
+  width: 95vw;
+  margin-left: 30px;
+  border-radius: 16px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.grid2 h2 {
+  font-family: "lemon_milkbold";
+  text-decoration: underline 6px;
+  position: relative;
+  display: flex;
+  padding-left: 2vw;
+  padding-top: 2vw;
+  font-weight: 900;
+  font-size: 36px;
+  padding-right: 2vw;
+  color: black;
+  text-align: center;
+}
+
+.nftlist {
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.nftcard {
+  background-color: white;
+  text-align: center;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+  height: 400px;
+  width: 300px;
+  border: solid 1px black;
+}
+
+.nftcard:hover {
+  transform: scale(1.02);
+  /* box-shadow: orange -4px 4px 3px; */
+}
+
+/* .songimage{
+    width: 100px;
+  } */
+
+.songimage {
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  /* margin-top: 2px; */
+  width: 280px;
+  height: 26vh;
+  border-radius: 4px;
+  object-fit: cover;
+  /* border: solid red; */
+}
+
+.songname {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 9px;
+}
+
+.songname h3 {
+  margin-top: 10px;
+  font-family: "lemon_milkmedium";
+  font-size: 4vh;
+  letter-spacing: 0.1vw;
+  text-align: center;
+}
+
+.artistname h3 {
+  text-align: center;
+  font-family: "lemon_milklight";
+  font-size: 3vh;
+  letter-spacing: 0.1vw;
+}
+
+.songprice {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* border: solid red; */
+}
+
+.songprice h3 {
+  margin-top: 10px;
+  margin-left: 50px;
+  font-family: "lemon_milkmedium";
+  font-size: 3vh;
+  font-weight: 800;
+  letter-spacing: 0.1vw;
+}
+
+.songprice img {
+  height: 40px;
+  width: 25px;
+  margin-top: 1vh;
+  margin-right: 3vw;
+}
+/* .songprice button{
+    font-family: 'lemon_milklight';
+    margin-top:1vh;
+    box-shadow: grey 0px 2px 5px;
+    font-size: 3vh;
+    text-align: center;
+    height:30px;
+    width:75px;
+    border-radius:8px;
+    transition-duration: 0.2s;
+    background-color: white;
+  }
+  .button:hover{
+    border: solid rgb(251, 211, 31);
+    color: white;
+    background-color: black;
+  } */
+
+/*--------------------------------------------------*/
+
+/*----------------------Grid2--------------------*/
+.grid3 {
+  color: black;
+  height: 700px;
+  width: 95vw;
+  margin-left: 30px;
+  background-color: black;
+  border-radius: 16px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.content3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 5%;
+  padding-right: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.content3 h2 {
+  line-height: 10vh;
+  letter-spacing: 0.2vw;
+  word-spacing: 1vh;
+  margin-right: 2vw;
+  text-align: center;
+  font-size: 6vh;
+  font-family: "lemon_milkmedium_italic";
+  color: white;
+}
+.content3 img {
+  border-radius: 8px;
+  width: 42vw;
+}
+
+.grid4 {
+  background-image: url("../assets/images/music2.png");
+  background-blend-mode: overlay;
+  background-color: red;
+  color: black;
+  height: 600px;
+  width: 95vw;
+  margin-left: 30px;
+  border-radius: 16px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.grid4 h2 {
+  text-decoration: underline 6px;
+  font-family: "lemon_milkbold";
+  position: relative;
+  display: flex;
+  padding-left: 2vw;
+  padding-top: 2vw;
+  font-weight: 900;
+  font-size: 40px;
+  padding-right: 2vw;
+  color: black;
+  text-align: center;
+}
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+
+/*-----------------------GRID 5---------------------*/
+.grid5 {
+  /* background-image: url("../assets/images/shapeleft.png");
+    background-blend-mode:hard-light;
+    background-repeat: no-repeat;
+    background-size:200vh;
+    background-position-y: center;
+    background-position-x:; */
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  text-align: left;
+  height: 700px;
+  width: 95vw;
+  margin-left: 30px;
+  background-color: #000000;
+  border-radius: 16px;
+}
+
+.content5 {
+  width: 85vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.grid5 button {
+  font-family: "lemon_milklight";
+  position: relative;
+  background-color: white;
+  font-size: 3.7vh;
+  text-align: center;
+  font-weight: 900;
+  width: 270px;
+  height: 50px;
+  color: black;
+  border-radius: 12px;
+  margin-left: 30vw;
+  margin-top: 2vh;
+  margin-bottom: 9vh;
+  cursor: pointer;
+  transition-duration: 250ms;
+}
+
+.grid5button:hover {
+  border: solid rgb(251, 211, 31);
+  color: white;
+  background-color: black;
+}
+
+.content5 img {
+  border-radius: 8px;
+  width: 45vw;
+  height: 62vh;
+}
+
+.content5 h1 {
+  font-family: "lemon_milkmedium_italic";
+}
+
+.grid5 h1 {
+  line-height: 10vh;
+  text-align: right;
+  position: relative;
+  margin-left: 4.3vw;
+  margin-right: 2vh;
+  font-size: 6vh;
+  width: 40vw;
+  color: white;
+  margin-top: 2vh;
+}
+
+.grid5 h2 {
+  font-family: "lemon_milklight";
+  position: relative;
+  margin-left: 12vw;
+  width: 45vw;
+  padding-top: 2vw;
+  color: white;
+  text-align: center;
+}
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
