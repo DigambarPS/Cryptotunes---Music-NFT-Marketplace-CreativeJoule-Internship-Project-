@@ -1,0 +1,99 @@
+body {
+  background-color: white;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+/*-----------------------fonts------------------*/
+@font-face {
+  font-family: "lemon_milkbold";
+  src: url("./fonts/webfontkit-LemonMilk/lemonmilk-bold-webfont.woff2")
+      format("woff2"),
+    url("./fonts/webfontkit-LemonMilk/lemonmilk-bold-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lemon_milkbold_italic";
+  src: url("./fonts/webfontkit-LemonMilk/lemonmilk-bolditalic-webfont.woff2")
+      format("woff2"),
+    url("./fonts/webfontkit-LemonMilk/lemonmilk-bolditalic-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lemon_milklight_italic";
+  src: url("./fonts/webfontkit-LemonMilk/lemonmilk-lightitalic-webfont.woff2")
+      format("woff2"),
+    url("./fonts/webfontkit-LemonMilk/lemonmilk-lightitalic-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lemon_milkmedium";
+  src: url("./fonts/webfontkit-LemonMilk/lemonmilk-medium-webfont.woff2")
+      format("woff2"),
+    url("./fonts/webfontkit-LemonMilk/lemonmilk-medium-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lemon_milklight";
+  src: url("./fonts/webfontkit-LemonMilk/lemonmilk-light-webfont.woff2")
+      format("woff2"),
+    url("./fonts/webfontkit-LemonMilk/lemonmilk-light-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lemon_milkregular";
+  src: url("./fonts/webfontkit-LemonMilk/lemonmilk-regular-webfont.woff2")
+      format("woff2"),
+    url("./fonts/webfontkit-LemonMilk/lemonmilk-regular-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lemon_milkmedium_italic";
+  src: url("./fonts/webfontkit-LemonMilk/lemonmilk-mediumitalic-webfont.woff2")
+      format("woff2"),
+    url("./fonts/webfontkit-LemonMilk/lemonmilk-mediumitalic-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "lemon_milkregular_italic";
+  src: url("./fonts/webfontkit-LemonMilk/lemonmilk-regularitalic-webfont.woff2")
+      format("woff2"),
+    url("./fonts/webfontkit-LemonMilk/lemonmilk-regularitalic-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
